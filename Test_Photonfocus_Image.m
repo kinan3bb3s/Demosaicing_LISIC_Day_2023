@@ -36,7 +36,7 @@ try
 catch
     fullFileName='Data/MV0-D2048x1088-C01-HS02-160-G2_image_115649_000.bmp';
 end
-importfile(fullFileName);
+cdata=imread(fullFileName);
 
 
 % Show the image
